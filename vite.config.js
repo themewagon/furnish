@@ -6,7 +6,7 @@ const htmlFiles = glob.sync('./src/**/*.html')
 
 
 export default defineConfig({
-   base: './', 
+   base: '/furnish/', 
    root: resolve(__dirname, 'src'),   // ✅ keeps dev server working
    server: {
     host: true,
